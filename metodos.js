@@ -1,4 +1,5 @@
 //METODOS STRING
+
 // Array.concat() CONCATENAR 
 
 var array1 = "Danny";
@@ -56,3 +57,26 @@ alert(parrafo.search("elit"));
 
 
 // FIN METODOS STRING
+
+//METODOS ARRAYS
+
+//splice()
+var nombres = ["Danny","Leonardo","Maximiliano","Camila","Maria"];
+var res = nombres.splice(2, 0, "Elsa", "Juan");
+console.log(nombres);
+
+//unshift()
+nombres.unshift("Tobby", "Nahara");
+
+//toString()
+nombres.toString();
+
+//push() Agrega un elemento al final del array
+var a = nombres.push("eddy");
+
+//pop() Elimina el ultimo elemento del array (Elimina el anterior)
+var b = nombres.pop();
+
+// //from()
+
+// var letras = nombres.from("ABCDEFGHIJ");
